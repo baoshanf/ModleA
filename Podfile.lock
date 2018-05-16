@@ -1,0 +1,16 @@
+PODS:
+  - ALRouter (0.0.1)
+
+DEPENDENCIES:
+  - ALRouter
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ALRouter
+
+SPEC CHECKSUMS:
+  ALRouter: 59d3a082c7fd978924c3199060dd528a65ffebbd
+
+PODFILE CHECKSUM: 9d066e0a74340e92045aa86aa16883ed1e7ee44b
+
+COCOAPODS: 1.5.0

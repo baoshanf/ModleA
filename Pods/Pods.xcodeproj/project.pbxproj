@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D64A6535A6D635810B1CD12BD4D8ADC /* ALRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9314CB59733D96FDE94D776F744C65 /* ALRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B8D17060AFE91419A329A710A67B121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6EEAB7102E23040F23EBE9F1925BA754 /* Pods-ModleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B88553A04017B682623B356D305A342 /* Pods-ModleA-dummy.m */; };
+		C1C3D25246F853B28677BE6EF61DB550 /* ALRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2088150FE559D0A217ABC10EBDF6256C /* ALRouter-dummy.m */; };
+		EFA2C19A7ACAC490BEE72309AD4D933A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FAF5C824AC9E11A19E67BA248CA1F50C /* ALRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AAFB9473BBBBC14A31EF8373393BD /* ALRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31CF697FF448D871B444028A72F2316E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A79D632BBE8087F7D85C0822909E7C8;
+			remoteInfo = ALRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B88553A04017B682623B356D305A342 /* Pods-ModleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModleA-dummy.m"; sourceTree = "<group>"; };
+		2088150FE559D0A217ABC10EBDF6256C /* ALRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALRouter-dummy.m"; sourceTree = "<group>"; };
+		5B073AECCD843925B3CDED3A055764DD /* Pods-ModleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModleA.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7838240C6E0240505D3626BAB34D19B7 /* libALRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libALRouter.a; path = libALRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2D64433ECAAE9C3B13CE87DAD3F52D /* libPods-ModleA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ModleA.a"; path = "libPods-ModleA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4AAFB9473BBBBC14A31EF8373393BD /* ALRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ALRouter.m; path = ALRouter/ALRouter/ALRouter.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C9314CB59733D96FDE94D776F744C65 /* ALRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ALRouter.h; path = ALRouter/ALRouter/ALRouter.h; sourceTree = "<group>"; };
+		CDEC916106DF0FFD784CC8B18DB5E1CA /* Pods-ModleA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModleA-resources.sh"; sourceTree = "<group>"; };
+		CE1D762E2801887A3D73D13291288970 /* Pods-ModleA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModleA-frameworks.sh"; sourceTree = "<group>"; };
+		D69BE288507A258F1A0E9E0EAC707DBF /* Pods-ModleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModleA.debug.xcconfig"; sourceTree = "<group>"; };
+		DE241312F05D133F0CB7EF6CFF1313E3 /* ALRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALRouter-prefix.pch"; sourceTree = "<group>"; };
+		DE9EBCADE86F28F24CF1E14B949292C6 /* Pods-ModleA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModleA-acknowledgements.plist"; sourceTree = "<group>"; };
+		E152E0C21141439D232FDC28D198A30E /* Pods-ModleA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModleA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0541B2BC596C7FCAD87DCE222DBD71F /* ALRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALRouter.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48310D9BE2E10E5DB0AD058A2C96138D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA2C19A7ACAC490BEE72309AD4D933A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BE8BF897233552C34F876A87796C7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B8D17060AFE91419A329A710A67B121 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08704922A3FFF7EC74EF44759108E68A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14B3307DCAA980AED805AB9BD742A990 /* ALRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F80C734C78E18F9AFDB77576363804D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7838240C6E0240505D3626BAB34D19B7 /* libALRouter.a */,
+				7B2D64433ECAAE9C3B13CE87DAD3F52D /* libPods-ModleA.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B3307DCAA980AED805AB9BD742A990 /* ALRouter */ = {
+			isa = PBXGroup;
+			children = (
+				9C9314CB59733D96FDE94D776F744C65 /* ALRouter.h */,
+				8D4AAFB9473BBBBC14A31EF8373393BD /* ALRouter.m */,
+				D41C0FAACDECF5D017F464E27762158C /* Support Files */,
+			);
+			name = ALRouter;
+			path = ALRouter;
+			sourceTree = "<group>";
+		};
+		153813DF9237EB22470A1C1861E4BB91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				349E51E50C514023BDEE40090B5121E3 /* Pods-ModleA */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		349E51E50C514023BDEE40090B5121E3 /* Pods-ModleA */ = {
+			isa = PBXGroup;
+			children = (
+				E152E0C21141439D232FDC28D198A30E /* Pods-ModleA-acknowledgements.markdown */,
+				DE9EBCADE86F28F24CF1E14B949292C6 /* Pods-ModleA-acknowledgements.plist */,
+				0B88553A04017B682623B356D305A342 /* Pods-ModleA-dummy.m */,
+				CE1D762E2801887A3D73D13291288970 /* Pods-ModleA-frameworks.sh */,
+				CDEC916106DF0FFD784CC8B18DB5E1CA /* Pods-ModleA-resources.sh */,
+				D69BE288507A258F1A0E9E0EAC707DBF /* Pods-ModleA.debug.xcconfig */,
+				5B073AECCD843925B3CDED3A055764DD /* Pods-ModleA.release.xcconfig */,
+			);
+			name = "Pods-ModleA";
+			path = "Target Support Files/Pods-ModleA";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				08704922A3FFF7EC74EF44759108E68A /* Pods */,
+				0F80C734C78E18F9AFDB77576363804D /* Products */,
+				153813DF9237EB22470A1C1861E4BB91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D41C0FAACDECF5D017F464E27762158C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0541B2BC596C7FCAD87DCE222DBD71F /* ALRouter.xcconfig */,
+				2088150FE559D0A217ABC10EBDF6256C /* ALRouter-dummy.m */,
+				DE241312F05D133F0CB7EF6CFF1313E3 /* ALRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALRouter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B10760C0795CD381D00FE69D8D6ACF4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D64A6535A6D635810B1CD12BD4D8ADC /* ALRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A79D632BBE8087F7D85C0822909E7C8 /* ALRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699AB6E2DC34A87917B7C7BF05E2F8A0 /* Build configuration list for PBXNativeTarget "ALRouter" */;
+			buildPhases = (
+				EEDF67E539821FFFCE9BDD51B8E208A4 /* Sources */,
+				6BE8BF897233552C34F876A87796C7ED /* Frameworks */,
+				3B10760C0795CD381D00FE69D8D6ACF4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALRouter;
+			productName = ALRouter;
+			productReference = 7838240C6E0240505D3626BAB34D19B7 /* libALRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		692BADEB4BC20513B9C72660EBA74424 /* Pods-ModleA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C68286852171D6EEB9F5BFB083BC7A2F /* Build configuration list for PBXNativeTarget "Pods-ModleA" */;
+			buildPhases = (
+				5309B478BC757DB27A80B7874C64C162 /* Sources */,
+				48310D9BE2E10E5DB0AD058A2C96138D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA7425456D3328B456D161C8747C6F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ModleA";
+			productName = "Pods-ModleA";
+			productReference = 7B2D64433ECAAE9C3B13CE87DAD3F52D /* libPods-ModleA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F80C734C78E18F9AFDB77576363804D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A79D632BBE8087F7D85C0822909E7C8 /* ALRouter */,
+				692BADEB4BC20513B9C72660EBA74424 /* Pods-ModleA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5309B478BC757DB27A80B7874C64C162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEAB7102E23040F23EBE9F1925BA754 /* Pods-ModleA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDF67E539821FFFCE9BDD51B8E208A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C3D25246F853B28677BE6EF61DB550 /* ALRouter-dummy.m in Sources */,
+				FAF5C824AC9E11A19E67BA248CA1F50C /* ALRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFA7425456D3328B456D161C8747C6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALRouter;
+			target = 4A79D632BBE8087F7D85C0822909E7C8 /* ALRouter */;
+			targetProxy = 31CF697FF448D871B444028A72F2316E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		91E1D6F4931C55EA14357DA5B76D1BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B073AECCD843925B3CDED3A055764DD /* Pods-ModleA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E73FDF340575825C1699608FBA2674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0541B2BC596C7FCAD87DCE222DBD71F /* ALRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ALRouter/ALRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ALRouter;
+				PRODUCT_NAME = ALRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC313B5BF385B7914379E63291CC16A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69BE288507A258F1A0E9E0EAC707DBF /* Pods-ModleA.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFC114BB07E3F27F1182A5F3F6C9CC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0541B2BC596C7FCAD87DCE222DBD71F /* ALRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ALRouter/ALRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ALRouter;
+				PRODUCT_NAME = ALRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699AB6E2DC34A87917B7C7BF05E2F8A0 /* Build configuration list for PBXNativeTarget "ALRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC114BB07E3F27F1182A5F3F6C9CC90 /* Debug */,
+				A5E73FDF340575825C1699608FBA2674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C68286852171D6EEB9F5BFB083BC7A2F /* Build configuration list for PBXNativeTarget "Pods-ModleA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC313B5BF385B7914379E63291CC16A2 /* Debug */,
+				91E1D6F4931C55EA14357DA5B76D1BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
