@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ModleAViewController.h
 //  ModleA
 //
 //  Created by hans on 2018/5/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ModleAViewController : UIViewController
 
 @end
-
