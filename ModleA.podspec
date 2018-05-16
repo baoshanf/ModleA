@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ModleA"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "a part of APP function"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    ModleA APP
+                    ModleA APP,a part of APP function
                    DESC
 
   s.homepage     = "https://github.com/baoshanf/ModleA.git"
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "ModleA", "ModleA/**/*.{h,m}"
-   s.exclude_files = "ModleA/main.m"
+s.exclude_files = "ModleA/main.m","ModleA/APPDelegate.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
